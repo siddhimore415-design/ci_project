@@ -1,5 +1,6 @@
 
-name: Python Tests and Linting
+- name: Run linting
+  run: flake8 .
 
 on: [push, pull_request]
 
